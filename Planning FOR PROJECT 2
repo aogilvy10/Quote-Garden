@@ -1,0 +1,36 @@
+********* LAYOUT: **********
+- a start page that welcomes them to the website and has an enter button to let them in
+- then from there takes you to the home screen where you can have another button if we want that generates a random quote
+-once that quote is shown it tells you the author of who wrote the quote
+- we will then have a tab that says see more similar quotes 
+- this will take you to more quotes of the same category and show about 25 more of them
+  - orrrr we maybe have a request that allows the user to choose which genre of quotes they want and then from there we have a separate api request that brings in the info on that genre
+- we then have an api that changes the background every time a new quote is generated 
+
+
+
+
+
+
+
+***** QUESTIONS *****
+1. Will the background api work, we are only allowed 50 requests per hour i believe
+2. It is fine to have multiple requests from the same api? Because we want to display many different genres and there are too many to be able to display them all
+
+
+
+
+***** MVP ******
+
+1. The home screen with the enter button
+2. the set interval that changes the background and the quote at the same time
+3. navbar with 3/4 genres at the top
+4. a similar opition to see other quotes in the same genre on a different page 
+
+
+
+
+
+***** PSUEDO ******
+1. First we will need to figure out the home page and to enter into the generating quote part
+2. then we will need to link the button to the xxz

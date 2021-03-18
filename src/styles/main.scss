@@ -1,0 +1,160 @@
+* {
+  color: white;
+  font-family: 'Shippori Mincho B1', serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  transition: background-image 1s ease-in-out;
+}
+
+div {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.quote-text {
+text-align: center;
+height: auto;
+width: 500px;
+font-family: 'Shippori Mincho B1', serif;
+font-weight: bolder;
+font-size: larger;
+margin-top: 30px;
+// background-color: transparentize($color: grey, $amount: 0.7);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 80px;
+  // margin-top: 0;
+  margin: 25vh auto;
+  margin-bottom: 30px;
+  // box-shadow: 0 0 20px 0 white;
+  // background: transparentize($color: white, $amount: 0.8);
+}
+
+.quote-author {
+  text-align: right;
+  color: black;
+  height: 50px;
+  width: 400px;
+  margin-top: 0;
+  margin: 0 auto;
+}
+
+nav {
+height: 50px;
+display: flex;
+font-size: 20px;
+font-weight: bolder;
+}
+
+.nav-home {
+text-align: left;
+height: 50px;
+margin-left: 100px;
+margin-top: 70px;
+letter-spacing: 2px;
+font-style: italic;
+}
+
+.nav-components {
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  width: 550px;
+  margin: 0;
+  padding-right: 100px;
+  padding-top: 70px;
+  font-style: italic;
+}
+
+a, .home {
+  height: 30px;
+	background: transparent;
+	border-radius: 50px;
+	padding-left: 10px;
+	transition: 0.2s ease-in-out;
+}
+
+a:hover, .home:hover {
+  transform: scale(0.85)
+}
+
+.border {
+  height: 90%;
+  width: 90%;
+  border: solid white 5px;
+  background: transparentize($color: grey, $amount: 0.7);
+  box-shadow: 0 0 20px 0 white;
+}
+
+ul {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  height: 170px;
+  width: 170px;
+  border: 3px solid white;
+  box-shadow: 0 0 20px 0 lightgrey;
+  margin: 15px;
+  padding: 0 10px 0;
+  font-size: 16px;
+  font-weight: bolder;
+  background: transparentize($color: grey, $amount: 0.3);
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+li:hover {
+  transform: scale(1.85)
+}
+
+li.genre-list {
+  font-size: 20px;
+  height: 50px;
+  width: 25%;
+  text-align: center;
+  padding: 5px;
+  margin: 70px 30px;
+}
+
+li.genre-list:hover {
+  transform: scale(1.2)
+}
+
+.list-quote-text {
+  font-size: 60%;
+}
+
+.list-quote-author {
+  font-size: 12px;
+  text-align: right;
+}
+
+p.list-quote-text {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+p.list-quote-author {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
